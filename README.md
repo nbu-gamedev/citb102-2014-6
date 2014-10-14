@@ -1,19 +1,19 @@
 Instructions
 ============
 
-0. Make sure you have the command-line git client installed; at a command prompt type
+  * Make sure you have the command-line git client installed; at a command prompt type
 
         git version
     
 You should get back a version number, such as "git version 1.7.4.". If you get something like "command not found" instead, you need to install git first.
   
-1. Clone the repository into a new directory:
+  * Clone the repository into a new directory:
 
         git clone https://github.com/nbu-gamedev/citb102-2014-6 citb102
     
 This will create a new directory under the current directory, called citb102, and clone a copy of the repository into it.
 
-2. Go into the repository and create a personal subdirectory for your work. Use f followed by your faculty number, e.g. f12345:
+  * Go into the repository and create a personal subdirectory for your work. Use f followed by your faculty number, e.g. f12345:
 
         cd citb102
         md f12345
@@ -29,7 +29,7 @@ Commit the file (and, implicitly, the newly created subdirectory where it reside
     
 The message after -m is called a commit log message; it should describe the contents of the commit, e.g. "Homework for week 1" or "Final test, second revision". It cannot be ommited. Make it short but meaningful and remember that it will be visible to anyone.
 
-3. Now the new file and the new folder are committed in your local repository, but is not yet propagated to the original GitHub repository. To "push" it to the repository, use
+  * Now the new file and the new folder are committed in your local repository, but is not yet propagated to the original GitHub repository. To "push" it to the repository, use
 
         git push origin master
     
@@ -38,7 +38,7 @@ If this is successful, you should be able to see your changes at the repository 
 
 Note: you need to be added as a team member first (contact your professor), and have two-factor authentication _disabled_.
 
-4. Now your folder is created and commited, you are ready to do some work in it. Repeat the steps above.
+  * Now your folder is created and commited, you are ready to do some work in it. Repeat the steps above.
  
 Create some files, and add them to git:
 
