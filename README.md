@@ -13,7 +13,7 @@ You should get back a version number, such as "git version 1.7.4.". If you get s
     
 This will create a new directory under the current directory, called citb102, and clone a copy of the repository into it.
 
-  * Go into the repository and create a personal subdirectory for your work. Use f followed by your faculty number, e.g. f12345:
+  * Go into the repository and create a personal subdirectory for your work. Use your faculty number, e.g. f12345:
 
         cd citb102
         md f12345
@@ -33,7 +33,7 @@ The message after -m is called a commit log message; it should describe the cont
 
         git push origin master
     
-This should prompt you for your username and password, and on accepting them, push your changes to the central repository on GitHub.
+This should prompt you to enter your username and password, and on accepting them, push your changes to the central repository on GitHub.
 If this is successful, you should be able to see your changes at the repository page, https://github.com/nbu-gamedev/citb102-2014-6/
 
 Note: you need to be added as a team member first (contact your professor), and have two-factor authentication _disabled_.
@@ -42,8 +42,8 @@ Note: you need to be added as a team member first (contact your professor), and 
  
 Create some files, and add them to git:
 
-        git add homework1.cc
-        git add homework2.cc
+        git add homework1.cpp
+        git add homework2.cpp
         git commit "Homeworks 1 & 2"
     
 Don't forget to "git add" the changed files again after each change you want to commit - not just the first time you create them!
